@@ -1,6 +1,6 @@
 ## 1. Next.js 를 실행해보자
 
-![DB7A2735-5738-4813-8131-15685BE3B52D.jpeg](..%2F..%2F..%2F..%2FPictures%2FPhotos%20Library.photoslibrary%2Foriginals%2FD%2FDB7A2735-5738-4813-8131-15685BE3B52D.jpeg)
+![이미지 2023  3  14  오후 11 59](https://user-images.githubusercontent.com/81466548/225054245-88d1c1b3-ffca-4ff2-ba8f-2840176506fc.jpg)
 
   next.js를 첫 실행하면 다음과 같은 모습이 됩니다.
 하나씩 뜯어봅시다.
