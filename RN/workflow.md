@@ -11,8 +11,8 @@ Attachment (synchronous) ➡️ Layout(reflow) ➡️ Painting
 ## React Native의 Workflow
 RN 소스.js ➡️ Page Render ➡️ 리엑트 컴포넌트 DOM에 마운팅 ➡️ 브릿지 ➡️ 리엑트 컴포넌트 Rending (Objc api, java api .. ) ➡️ 해당 플랫폼의 Process
 
-리엑트는 브라우저 DOM에 랜더링 하지만,
-리엑트 네이티브는 Bridge(브릿지) 라는 개념을 도입해서 iOS, android 플렛폼으로 렌더링 합니다.
-브릿지가 해당하는 플렛폼의 Native UI요소에 접근하는 인터페이스를 제공하기 때문에 가능한 것이지요.
-DOM으로 랜더링하는 대신에 iOS의 경우는 Objc api를 호출하여 iOS 컴포넌트로 렌더링하여 처리합니다. 
-android라면 java api를 호출하여 안드로이드 컴포턴트로 랜더링 하여 호출하겠죠.
+리엑트는 브라우저 DOM에 랜더링 하지만, <br>
+리엑트 네이티브는 Bridge(브릿지) 라는 개념을 도입해서 iOS, android 플렛폼으로 렌더링 합니다. <br>
+브릿지가 해당하는 플렛폼의 Native UI요소에 접근하는 인터페이스를 제공하기 때문에 가능한 것이지요. <br>
+DOM으로 랜더링하는 대신에 iOS의 경우는 Objc api를 호출하여 iOS 컴포넌트로 렌더링하여 처리합니다. <br>
+android라면 java api를 호출하여 안드로이드 컴포턴트로 랜더링 하여 호출하겠죠. <br>
